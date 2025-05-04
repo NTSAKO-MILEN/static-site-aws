@@ -85,7 +85,7 @@ I uploaded the static site files into the `ntsakomilen-static-site` S3 bucket.
 
 ---
 
-### 3️⃣ Deploy via AWS CLI
+#### option 1 - Deploy via AWS CLI
 
 Using the AWS CLI, I uploaded all files to the S3 bucket:
 
@@ -97,7 +97,7 @@ This command synced my local folder to the S3 bucket, making the site live.
 
 ---
 
-### 4️⃣ (Alternative) Manual Upload via Console
+#### option 2 - (Alternative) Manual Upload via Console
 
 1. Navigate to your S3 bucket.
 2. Click **Upload**, then add your `index.html`, `error.html`, and assets.
@@ -140,7 +140,7 @@ To make the site accessible to everyone:
 }
 ```
 
-✅ Now, your site is fully accessible via the public S3 URL.
+✅ Now, my site is fully accessible via the public S3 URL.
 
 ---
 
